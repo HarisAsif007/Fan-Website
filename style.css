@@ -230,3 +230,8 @@ body#page404{
         transform: rotate(360deg);
     }
 }
+@media(max-width=500px){
+    .movies{
+        grid-template-columns: repeat(1,6);
+    }
+}
